@@ -1,0 +1,5 @@
+Spring boot trata-se de um projeto que visa ajudar aplicações stand alone em seus processos técnicos.
+Ao utilização permite uma experiência mais direta em relação a codificação, organiza arquivos como o do POM.xml e não gera novos códigos fonte.
+Dependicias são adicionadas por meio da declaração no pom, e então o Maven atualiza respectivamente.
+Do meu ponto de vista que não tenho tanta experiência eu gosto da interface do Intellij, porém também vejo muito valor na utilização de STS.
+O spring initializr se trata de uma das maneiras de criar um projeto, ele de forma simplificada deixa o desenvolvedor gerar um projeto simples funcional e com dependencias atualizadas.
