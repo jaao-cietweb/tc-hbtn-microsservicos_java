@@ -17,8 +17,13 @@ public class Cliente {
     private String idade;
     @Column
     private String email;
-
+    @Column
+    @OneToMany(cascade = CascadeType.ALL)
+    @JoinColumn(name = "telefones_id")
     private List<Telefone> telefones;
+    @Column
+    @OneToMany(cascade = CascadeType.ALL)
+    @JoinColumn(name = "enderecos_id")
     private List<Endereco> enderecos;
 
     public Cliente(int id, String nome, String idade, String email, List<Telefone> telefones, List<Endereco> enderecos) {
